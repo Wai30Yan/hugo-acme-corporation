@@ -2,6 +2,7 @@ baseURL: http://Wai30Yan.github.io/hugo-acme-corporation
 languageCode: en-us 
 title: Acme Corporation 
 theme: Eclectic 
+enableEmoji: true
 author: 
   facebook: "https://facebook.com/example" 
   twitter: "https://twitter.com/example" 
@@ -39,3 +40,7 @@ params:
     recentCount: 7
   - title: Contact Us
     contact: true
+
+markup:
+  highlight:
+    lineNos: true
